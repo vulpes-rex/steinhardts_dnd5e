@@ -8,11 +8,16 @@
       }
     ],
     "version": "1.0.0",
+    "system": ["dnd5e"],
     "compatibility": {
       "minimum": "10",
       "verified": "11"
     },
     "esmodules": [
         "scripts/class-feature-types.js"
-      ]
-  }
+    ],
+    "url": "https://github.com/vulpes-rex/steinhardts_dnd5e",
+    "manifest": "https://github.com/vulpes-rex/steinhardts_dnd5e/releases/latest/download/manifest.json",
+    "download": "https://github.com/vulpes-rex/steinhardts_dnd5e/releases/latest/download/module.zip",
+    "readme": "https://github.com/vulpes-rex/steinhardts_dnd5e/blob/master/README.md"
+}
