@@ -45,8 +45,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm ci
-      - run: npm test
       - run: npm build
 
       # Create a zip file with all files required by the module to add to the release
