@@ -42,11 +42,11 @@ jobs:
           download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.zip
 
       # Install Node
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - run: npm install
-      - run: npm build
+      #- uses: actions/setup-node@v3
+      #  with:
+      #    node-version: 18
+      #- run: npm install
+      #- run: npm build
 
       # Create a zip file with all files required by the module to add to the release
       - run: zip -r ./module.zip module.json scripts/
